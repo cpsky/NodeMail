@@ -8,22 +8,22 @@ const schedule = require("node-schedule"); //定时器任务库
 //配置项
 
 //纪念日
-let startDay = "2016/6/24";
+let startDay = "2018/9/6";
 //当地拼音,需要在下面的墨迹天气url确认
-const local = "zhejiang/hangzhou";
+const local = "shaanxi/xian";
 
 //发送者邮箱厂家
-let EmianService = "126";
+let EmianService = "QQ";
 //发送者邮箱账户SMTP授权码
 let EamilAuth = {
-  user: "xxx@126.com",
-  pass: "xxxx"
+  user: "740051880@qq.com",
+  pass: "ybxmocqgznqebbda"
 };
 //发送者昵称与邮箱地址
-let EmailFrom = '"vince" <xxxxx@126.com>';
+let EmailFrom = '"霸呵呵" <740051880@qq.com>';
 
 //接收者邮箱地
-let EmailTo = "xxxxx@qq.com";
+let EmailTo = "740051880@qq.com";
 //邮件主题
 let EmailSubject = "一封暖暖的小邮件";
 
