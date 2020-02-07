@@ -20,16 +20,16 @@ let EamilAuth = {
   pass: "ybxmocqgznqebbda"
 };
 //发送者昵称与邮箱地址
-let EmailFrom = '"霸呵呵" <740051880@qq.com>';
+let EmailFrom = '"爱你的源哥哥" <740051880@qq.com>';
 
 //接收者邮箱地
-let EmailTo = "740051880@qq.com";
+let EmailTo = "1109980173@qq.com";
 //邮件主题
 let EmailSubject = "一封暖暖的小邮件";
 
 //每日发送时间
-let EmailHour = 5;
-let EmialMinminute= 20;
+let EmailHour = 0;
+let EmialMinminute= 1;
 
 // 爬取数据的url
 const OneUrl = "http://wufazhuce.com/";
